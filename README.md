@@ -1,7 +1,3 @@
-I apologize for the oversight. The final `README.md` should be provided in a clean, copyable format without any extraneous formatting tags.
-
-Here is the full, correct text for the **CogniFast Study** README file, ready for copy-pasting.
-
 ```
 # 🎓 CogniFast Study - Study Companion
 
@@ -69,3 +65,4 @@ Once on the Tools Page, your API key and original PDF are hidden, and you can ac
 3. Run the app: `streamlit run app.py`
 4. Enter Groq API Key and upload PDF directly in the browser interface.
 ```
+
