@@ -1,4 +1,3 @@
-```
 # 🎓 CogniFast Study - Study Companion
 
 **Elevator Pitch:** Turn your boring lecture notes into an interactive, AI-powered study partner.
@@ -15,7 +14,7 @@ CogniFast Study uses a secure, two-page structure to ensure your API key is only
 
 1.  **Access the App:** Open the application's URL (or run `streamlit run app.py` locally). You will see the **Home Page**.
 2.  **Get API Key:** Obtain your API key from [Groq Cloud](https://groq.com/cloud/).
-3.  **Enter Credentials:** In the form under the "Step 1" warning:
+3.  **Enter Credentials:** In the form under the **"Step 1"** warning:
     * Paste your **Groq API Key** into the text field.
     * Click **"Upload PDF Document"** and select your lecture notes or study material.
 4.  **Analyze Document:** Click the large blue button: **`🚀 Analyze Document`**.
@@ -33,12 +32,12 @@ Once on the Tools Page, your API key and original PDF are hidden, and you can ac
     * `💬 AI Tutor`
 
 2.  **Generate Content (Example: Quiz):**
-    * Go to the `📝 Interactive Quiz` tab.
+    * Go to the **`📝 Interactive Quiz`** tab.
     * In the **Quiz Configuration** panel (left side), set the **Number of Questions** and **Difficulty**.
     * Click the **`✨ Generate Quiz`** button. The questions will instantly load into the main panel.
 
 3.  **Use AI Tutor:**
-    * Go to the `💬 AI Tutor` tab.
+    * Go to the **`💬 AI Tutor`** tab.
     * Type a question related to your uploaded document (e.g., "Explain the key concepts of the Von Neumann architecture in simple terms.") into the chat box.
     * The AI will answer using the document's context.
 
@@ -64,4 +63,3 @@ Once on the Tools Page, your API key and original PDF are hidden, and you can ac
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the app: `streamlit run app.py`
 4. Enter Groq API Key and upload PDF directly in the browser interface.
-```
