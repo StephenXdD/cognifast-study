@@ -82,7 +82,7 @@ def render_home_page():
     st.markdown(
         f"""
         <div class="creator-links">
-            <h1><p class="main-credits">✨ Created by: **Veer Sanghvi** and **Dev Joshi**</p> </h1>
+            <h1><p class="main-credits">✨ Created by: Veer Sanghvi and Dev Joshi</p> </h1>
              <h1><p class="github-links"> </h1>
                 <a href="https://github.com/9958ViceVortex" target="_blank">Veer Sanghvi's GitHub</a> |
                 <a href="https://github.com/StephenXdD" target="_blank">Dev Joshi's GitHub</a>
@@ -360,3 +360,4 @@ elif st.session_state.page == 'tools':
         # Fallback if somehow they landed here without data
         st.session_state.page = 'home'
         st.rerun()
+
