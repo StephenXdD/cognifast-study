@@ -15,7 +15,7 @@ import json
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
-    page_title="Pastify AI - Study Companion",
+    page_title="CogniFast Study",
     page_icon="🎓",
     layout="wide"
 )
@@ -47,7 +47,7 @@ def render_home_page():
         </style>
         """, unsafe_allow_html=True)
     
-    st.title("🎓 Pastify AI")
+    st.title("🎓 CogniFast Study")
     st.caption("Turn your boring lecture notes into an interactive study partner.")
     
     st.markdown("---")
