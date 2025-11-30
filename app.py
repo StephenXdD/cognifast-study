@@ -327,6 +327,17 @@ def render_tools_page():
                 except Exception as e:
                     st.error(f"Error: {e}")
 
+    # NEW: ADDED CREATOR INFO SECTION HERE
+    st.markdown("---")
+    st.markdown("""
+        <div style="text-align: center; margin-top: 10px; font-size: 0.9em; color: var(--text-subtle);">
+            **✨ Created by:** Veer Sanghvi and Dev Joshi
+            <br>
+            *Veer Sanghvi :- https://github.com/9958ViceVortex
+            Dev Joshi :- https://github.com/StephenXdD*
+        </div>
+        """, unsafe_allow_html=True)
+
     # --- TAB 6: RELATED VIDEOS --- (DELETED)
     # The logic for Tab 6 is entirely removed as requested.
 
