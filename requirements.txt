@@ -2,4 +2,10 @@ streamlit
 pypdf
 openai
 gTTS
+
 json
+# Use current stable versions
+streamlit
+pypdf
+openai>=1.1.0  # Use a recent, stable version
+gTTS
