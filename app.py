@@ -76,16 +76,23 @@ def render_home_page():
         </p>
     </div>
     """, unsafe_allow_html=True)
-    st.markdown("---")
-    st.markdown("""
-        <div style="text-align: center; margin-top: 10px; font-size: 0.9em; color: var(--text-subtle);">
-            **✨ Created by:** Veer Sanghvi and Dev Joshi
-            <br>
-            *Veer Sanghvi :- https://github.com/9958ViceVortex*
-            *Dev Joshi :- https://github.com/StephenXdD*
-        </div>
-        """, unsafe_allow_html=True)
     
+    # --- CREATOR INFO SECTION (Styled in styles.py) ---
+    st.markdown("---")
+    st.markdown(
+        f"""
+        <div class="creator-links">
+            <p class="main-credits">✨ Created by: **Veer Sanghvi** and **Dev Joshi**</p>
+            <p class="github-links">
+                <a href="https://github.com/9958ViceVortex" target="_blank">Veer Sanghvi's GitHub</a> |
+                <a href="https://github.com/StephenXdD" target="_blank">Dev Joshi's GitHub</a>
+            </p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+    # --- END OF CREATOR INFO SECTION ---
+
     if submit_button:
         if not api_key:
             st.error("Please enter your Groq API Key.")
@@ -336,6 +343,10 @@ def render_tools_page():
                 except Exception as e:
                     st.error(f"Error: {e}")
 
+    # --- TAB 6: RELATED VIDEOS --- (DELETED)
+    # The logic for Tab 6 is entirely removed as requested.
+
+
 # --- MAIN APP EXECUTION ---
 
 # Navigation Controller
@@ -349,4 +360,3 @@ elif st.session_state.page == 'tools':
         # Fallback if somehow they landed here without data
         st.session_state.page = 'home'
         st.rerun()
-
