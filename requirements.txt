@@ -1,9 +1,3 @@
-streamlit
-pypdf
-openai
-gTTS
-
-json
 # Use current stable versions
 streamlit
 pypdf
